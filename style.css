@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: #31e1e1;
+  height: 30rem;
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.title {
+  padding: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-content {
+  height: 9.5rem;
+}
+
+#quote {
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#author {
+  margin: 0px 200px 0px 200px;
+  padding: 20px;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+}
+#btn button {
+  background-color: #e0b939;
+  margin: 15px;
+  padding: 0px 25px 0px 25px;
+  height: 3rem;
+  border: 2px solid #e0b939;
+  font-size: large;
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    font-size: medium;
+  }
+  #author {
+    margin: 0px 90px;
+    width: 50%;
+    font-size: small;
+  }
+  .main-content {
+    height: auto;
+  }
+}
